@@ -1,0 +1,4 @@
+1,Xiaomi,8200.0
+1,Samsung,1200.0
+1,Apple,26600.0
+1,Xiaomi,8200.0

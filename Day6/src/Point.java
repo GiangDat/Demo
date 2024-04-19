@@ -1,7 +1,7 @@
 public class Point {
     private float x;
     private float y;
-    //private float xy;
+
 
     public Point(float x, float y) {
         this.x = x;
@@ -9,7 +9,8 @@ public class Point {
     }
 
     public Point() {
-        return;
+        x= 2;
+        y=3;
     }
 
     public float getX() {
@@ -32,8 +33,9 @@ public class Point {
         this.setxy(3, 5);
     }
 
-    public void getxy() {
-        return;
+    public float[] getxy() {
+        float[] arr={x,y};
+        return arr;
     }
 
     @Override
